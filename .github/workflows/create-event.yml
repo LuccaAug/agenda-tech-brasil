@@ -154,6 +154,9 @@ jobs:
 
           if [[ $event_day == "_No response_" ]]; then
             event_month=TBA
+          else
+            # Sort the days numerically
+            event_day=$(echo "$event_day" | tr -d ' ' | tr ',' '\n' | sort -n | paste -sd, -)
           fi
 
           if [[ $event_month == "To Be Announced" ]]; then
@@ -254,6 +257,9 @@ jobs:
 
           if [[ $event_day == "_No response_" ]]; then
             event_month=TBA
+          else
+            # Sort the days numerically
+            event_day=$(echo "$event_day" | tr -d ' ' | tr ',' '\n' | sort -n | paste -sd, -)
           fi
 
           if [[ $event_month == "To Be Announced" ]]; then
