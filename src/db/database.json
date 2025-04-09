@@ -4787,6 +4787,13 @@
       "cidade": "Curitiba",
       "uf": "PR",
       "tipo": "presencial"
+    },
+    {
+      "nome": "arquivar",
+      "url": "arquivar",
+      "cidade": "Arquivar",
+      "uf": "SP",
+      "tipo": "presencial"
     }
   ]
 }
