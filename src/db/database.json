@@ -4663,6 +4663,16 @@
           "arquivado": false,
           "eventos": [
             {
+              "nome": "Fame '22",
+              "data": [
+                "21"
+              ],
+              "url": "https://salabufmg.github.io/fame22/",
+              "cidade": "Belo Horizonte",
+              "uf": "MG",
+              "tipo": "presencial"
+            },
+            {
               "nome": "Python Brasil 2025",
               "data": [
                 "21",
