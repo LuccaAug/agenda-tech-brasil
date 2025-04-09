@@ -5,6 +5,7 @@ on:
 
 jobs:
   change-issue-name:
+    if: contains(github.event.issue.labels.*.name, 'Criar Evento/Agenda') || contains(github.event.issue.labels.*.name, 'Cancelar Evento/Agenda') || contains(github.event.issue.labels.*.name, 'Arquivar Mês/Ano')
     runs-on: ubuntu-latest
     permissions:
       issues: write
