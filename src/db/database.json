@@ -4787,6 +4787,13 @@
       "cidade": "Curitiba",
       "uf": "PR",
       "tipo": "presencial"
+    },
+    {
+      "nome": "Teste Híbrido",
+      "url": "www.test-hibrid.com",
+      "cidade": "Omsk",
+      "uf": "DF",
+      "tipo": "híbrido"
     }
   ]
 }
