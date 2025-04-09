@@ -5,7 +5,6 @@ on:
 
 jobs:
   change-issue-name:
-    if: contains(github.event.issue.labels.*.name, 'template')
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -19,6 +18,11 @@ jobs:
           event_info="${{ github.event.issue.body }}"
 
           LABELS="${{ toJson(github.event.issue.labels) }}"
+          
+          if ! echo "$LABELS" | grep -q 'name: template'; then
+            echo "Issue não criada a partir de um template de evento, portanto não é necessário modificar o título."
+            exit 0
+          fi
 
           get_event_value() {
             local event_info="$1"
