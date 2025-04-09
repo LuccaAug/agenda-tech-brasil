@@ -4625,6 +4625,17 @@
               "tipo": "presencial"
             },
             {
+              "nome": "FOF'24",
+              "data": [
+                "04",
+                "05"
+              ],
+              "url": "https://salabufmg.github.io/fof24/",
+              "cidade": "Belo Horizonte",
+              "uf": "MG",
+              "tipo": "presencial"
+            },
+            {
               "nome": "Hacking Na Web Day - Rio de Janeiro - 2025",
               "data": [
                 "13"
