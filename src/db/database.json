@@ -4706,6 +4706,17 @@
           "arquivado": false,
           "eventos": [
             {
+              "nome": "Fame 2025",
+              "data": [
+                "05",
+                "06"
+              ],
+              "url": "https://salabufmg.github.io/fame24/",
+              "cidade": "Belo Horizonte",
+              "uf": "MG",
+              "tipo": "presencial"
+            },
+            {
               "nome": "Big Data Brazil Experience 2025",
               "data": [
                 "22"
