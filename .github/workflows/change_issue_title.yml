@@ -19,6 +19,7 @@ jobs:
 
           LABELS="${{ toJson(github.event.issue.labels) }}"
           
+          echo "$LABELS"
           if ! echo "$LABELS" | grep -q 'name: template'; then
             echo "Issue não criada a partir de um template de evento, portanto não é necessário modificar o título."
             exit 0
