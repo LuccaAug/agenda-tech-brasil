@@ -4787,6 +4787,13 @@
       "cidade": "Curitiba",
       "uf": "PR",
       "tipo": "presencial"
+    },
+    {
+      "nome": "Teste",
+      "url": "teste",
+      "cidade": "Teste",
+      "uf": "SP",
+      "tipo": "presencial"
     }
   ]
 }
