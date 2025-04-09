@@ -3387,6 +3387,20 @@
               "tipo": "online"
             },
             {
+              "nome": "DevParaná na Estrada 2025",
+              "data": [
+                "10",
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "url": "https://linktr.ee/developerparana",
+              "cidade": "Paraná",
+              "uf": "PR",
+              "tipo": "presencial"
+            },
+            {
               "nome": "DevPR na Estrada: Ivaiporã",
               "data": [
                 "11"
